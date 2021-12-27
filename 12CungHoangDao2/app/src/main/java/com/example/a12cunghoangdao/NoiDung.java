@@ -182,11 +182,11 @@ public class NoiDung extends AppCompatActivity implements View.OnClickListener{
                 }
                 else{
                     Intent intent = new Intent(NoiDung.this, NoiDung1.class);
-                    Bundle bundle = new Bundle(); // chỗ này có sai k c khả nang la sai
+                    Bundle bundle = new Bundle();
                     bundle.putInt("key1", iv1);
                     bundle.putInt("key2", txt_dauDe);
                     bundle.putInt("key3", txt_content);
-                    intent.putExtras(bundle); //chay di
+                    intent.putExtras(bundle);
                     startActivity(intent);
                 }
                 break;
