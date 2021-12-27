@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/manChinh"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/img1"
+        android:layout_width="match_parent"
+        android:layout_height="768dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/bg_act_splash_01"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/wellcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:shadowColor="@color/cam"
+        android:shadowDx="10"
+        android:textStyle="bold"
+        android:shadowDy="10"
+        android:shadowRadius="5"
+        android:text="@string/wellcome"
+        android:textColor="@color/white"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/bat_dau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:text="@string/Bat_Dau"
+        android:textColor="@color/white"/>
+
+
+</FrameLayout>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDarkBlue"
+    tools:context=".NoiDung">
+
+    <ImageView
+        android:id="@+id/hinhTron"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/ic_circle_blank_1" />
+
+
+    <ImageView
+        android:id="@+id/maKet"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignEnd="@+id/hinhTron"
+        android:layout_alignBottom="@+id/tv_tam"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="-18dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/ic_ma_ket" />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:id="@+id/thienBinh"
+        android:layout_height="70dp"
+        android:layout_alignEnd="@+id/hinhTron"
+        android:layout_alignBottom="@+id/tv_tam"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="-77dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/ic_thien_binh" />
+
+    <ImageView
+        android:id="@+id/bocap"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignEnd="@+id/hinhTron"
+        android:layout_alignBottom="@+id/tv_tam"
+        android:layout_marginEnd="235dp"
+        android:layout_marginBottom="-120dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/ic_bocap" />
+
+    <ImageView
+        android:id="@+id/xuNu"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignEnd="@+id/hinhTron"
+        android:layout_alignBottom="@+id/tv_tam"
+        android:layout_marginEnd="203dp"
+        android:layout_marginBottom="64dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/ic_xu_nu" />
+
+    <ImageView
+        android:id="@+id/baobinh"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignEnd="@+id/hinhTron"
+        android:layout_alignBottom="@+id/tv_tam"
+        android:layout_marginEnd="119dp"
+        android:layout_marginBottom="-147dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/ic_bao_binh" />
+
+    <ImageView
+        android:id="@+id/songngu"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignEnd="@+id/hinhTron"
+        android:layout_alignBottom="@+id/tv_tam"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="47dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/ic_song_ngu" />
+
+    <ImageView
+        android:id="@+id/songtu"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignEnd="@+id/hinhTron"
+        android:layout_alignBottom="@+id/tv_tam"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="70dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/ic_song_tu" />
+
+    <ImageView
+        android:id="@+id/bachduong"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignEnd="@+id/hinhTron"
+        android:layout_alignBottom="@+id/tv_tam"
+        android:layout_marginEnd="154dp"
+        android:layout_marginBottom="82dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/ic_bach_duong" />
+
+    <ImageView
+        android:id="@+id/nhanMa"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignEnd="@+id/hinhTron"
+        android:layout_alignBottom="@+id/tv_tam"
+        android:layout_marginEnd="239dp"
+        android:layout_marginBottom="11dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/ic_nhan_ma" />
+
+    <ImageView
+        android:id="@+id/kimngu"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignEnd="@+id/hinhTron"
+        android:layout_alignBottom="@+id/tv_tam"
+        android:layout_marginEnd="251dp"
+        android:layout_marginBottom="-50dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/ic_kim_nguu" />
+
+    <ImageView
+        android:id="@+id/sutu"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignEnd="@+id/hinhTron"
+        android:layout_alignBottom="@+id/tv_tam"
+        android:layout_marginEnd="186dp"
+        android:layout_marginBottom="-141dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/ic_su_tu" />
+
+    <ImageView
+        android:id="@+id/cugiai"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignEnd="@+id/hinhTron"
+        android:layout_alignBottom="@+id/tv_tam"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="-123dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/ic_cu_giai" />
+
+    <TextView
+        android:id="@+id/tv_tam"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@color/cam"
+        android:gravity="center_horizontal"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"/>
+
+    <ImageView
+        android:id="@+id/context"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hinhTron"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/menu_detail_bg" />
+
+    <ImageView
+        android:id="@+id/iv_content"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/hinhTron"
+        android:layout_marginEnd="-61dp"
+        android:layout_marginBottom="-65dp"
+        android:layout_toStartOf="@+id/context"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/ic_bao_binh" />
+
+    <TextView
+        android:id="@+id/dauDe_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hinhTron"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="4dp"
+        android:layout_toEndOf="@+id/iv_content"
+        android:gravity="center_horizontal"
+        android:text="@string/bao_binh_title1"
+        android:textColor="@color/yellow"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="261dp"
+        android:layout_height="69dp"
+        android:layout_below="@+id/dauDe_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="27dp"
+        android:ellipsize="end"
+        android:lines="6"
+        android:text="@string/bao_binh_text"
+        android:textColor="@color/white" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="27dp"
+        android:id="@+id/btnXemThem"
+        android:text="XemThem" />
+
+
+</RelativeLayout>

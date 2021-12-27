@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Video18">
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="152dp"
+        android:layout_height="32dp"
+        android:layout_above="@+id/TrangThai1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="136dp"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:text="Trạng thái"
+        tools:layout_editor_absoluteX="232dp"
+        tools:layout_editor_absoluteY="164dp" />
+
+    <EditText
+        android:id="@+id/TrangThai1"
+        android:layout_width="404dp"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="311dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="215dp" />
+
+    <EditText
+        android:id="@+id/TrangThai2"
+        android:layout_width="404dp"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="102dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="215dp" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TrangThai1"
+        android:layout_marginTop="-250dp"
+        android:text="ToggleButton" />
+</RelativeLayout>

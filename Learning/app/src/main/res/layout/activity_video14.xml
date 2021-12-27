@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <EditText
+        android:id="@+id/So2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="383dp"
+        android:ems="100"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/so1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/So2"
+        android:layout_marginBottom="61dp"
+        android:ems="100"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnCong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/So2"
+        android:layout_marginTop="-349dp"
+        android:text="Cộng" />
+
+    <Button
+        android:id="@+id/btnTru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/So2"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="-349dp"
+        android:layout_toEndOf="@+id/btnCong"
+        android:text="Trừ" />
+
+    <Button
+        android:id="@+id/btnNhan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/So2"
+        android:layout_alignEnd="@+id/btnTru"
+        android:layout_marginTop="-349dp"
+        android:layout_marginEnd="-139dp"
+        android:text="Nhân" />
+
+    <TextView
+        android:id="@+id/KQ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="181dp"
+        android:layout_marginBottom="156dp"
+        android:gravity="center"
+        android:text="Kết quả"
+        android:textAlignment="center" />
+</RelativeLayout>
