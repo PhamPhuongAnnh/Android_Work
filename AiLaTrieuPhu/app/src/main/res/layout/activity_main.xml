@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/atp__activity_home_background">
+
+    <ImageView
+        android:id="@+id/apt_icon_logo_in_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/atp__icon_logo_in_app"
+        android:contentDescription="@string/todo"
+        android:layout_marginTop="@android:dimen/notification_large_icon_height"/>
+
+    <ImageView
+        android:id="@+id/apt_button_play_normal"
+        android:layout_width="match_parent"
+        android:foregroundGravity="center"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/apt_icon_logo_in_app"
+        android:layout_marginTop="50dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/atp__button_play_normal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/apt_button_play_normal"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="40sp"
+        >
+        <ImageView
+            android:id="@+id/atp__activity_home_button_archivement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/atp__activity_home_button_archivement"
+
+            android:contentDescription="@string/todo"
+            />
+        <ImageView
+            android:id="@+id/atp__activity_home_button_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/atp__activity_home_button_about"
+            android:contentDescription="@string/todo"
+            android:layout_marginLeft="@android:dimen/app_icon_size"
+            android:layout_marginRight="@android:dimen/app_icon_size"
+            />
+        <ImageView
+            android:id="@+id/atp__activity_home_button_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/atp__activity_home_button_setting"
+            android:contentDescription="@string/todo"
+            />
+    </LinearLayout>
+
+
+
+</RelativeLayout>

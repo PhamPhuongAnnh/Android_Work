@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Ai La Trieu Phu</string>
+    <string name="todo">TODO</string>
+    <string name="_150_000_000">$150.000,000</string>
+    <string name="_85_000_000">$85.000,000</string>
+    <string name="_60_000_000">$60.000,000</string>
+    <string name="_40_000_000">$40.000,000</string>
+    <string name="_30_000_000">$30.000,000</string>
+    <string name="_22_000_000">$22.000,000</string>
+    <string name="_14_000_000">$14.000,000</string>
+    <string name="_10_000_000">$10.000,000</string>
+    <string name="_6_000_000">$6.000,000</string>
+    <string name="_3_000_000">$3.000,000</string>
+    <string name="_2_000_000">$2.000,000</string>
+    <string name="_1_000_000">$1.000,000</string>
+    <string name="_600_000">$600,000</string>
+    <string name="_400_000">$400,000</string>
+    <string name="_200_000">$200,000</string>
+    <string name="A">A: Lê Thị Đào</string>
+    <string name="question">Nhân vật chị Dậu trong tác phẩm Tắt đèn của Ngô Tất Tố có tên thật là gì?</string>
+    <string name="B">B: Lê Thị Lan</string>
+    <string name="c_l_th_xu_n">C: Lê Thị Xuân</string>
+    <string name="d_l_th_mai">D: Lê Thị Mai</string>
+</resources>

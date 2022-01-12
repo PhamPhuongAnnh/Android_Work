@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ln_answer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".player"
+    android:orientation="vertical"
+    android:background="@drawable/atp__activity_player_background">
+    <RelativeLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <ImageView
+            android:id="@+id/item1"
+            android:layout_width="match_parent"
+            android:src="@drawable/atp__activity_player_image_money_milestone"
+            android:layout_height="45dp"
+            android:padding="3dp"
+            android:contentDescription="@string/todo"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/item1"
+            android:layout_marginTop="3dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/_150_000_000"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <RelativeLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <ImageView
+            android:id="@+id/item2"
+            android:layout_width="match_parent"
+            android:src="@drawable/atp__activity_player_image_money_milestone"
+            android:layout_height="45dp"
+            android:padding="3dp"
+            android:contentDescription="@string/todo"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/item2"
+            android:layout_marginTop="3dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/_85_000_000"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <ImageView
+            android:id="@+id/item3"
+            android:layout_width="match_parent"
+            android:src="@drawable/atp__activity_player_image_money_milestone"
+            android:layout_height="45dp"
+            android:padding="3dp"
+            android:contentDescription="@string/todo"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/item3"
+            android:layout_marginTop="3dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/_60_000_000"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <ImageView
+            android:id="@+id/item4"
+            android:layout_width="match_parent"
+            android:src="@drawable/atp__activity_player_image_money_milestone"
+            android:layout_height="45dp"
+            android:padding="3dp"
+            android:contentDescription="@string/todo"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/item4"
+            android:layout_marginTop="3dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/_40_000_000"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <ImageView
+            android:id="@+id/item5"
+            android:layout_width="match_parent"
+            android:src="@drawable/atp__activity_player_image_money_milestone"
+            android:layout_height="45dp"
+            android:padding="3dp"
+            android:contentDescription="@string/todo"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/item5"
+            android:layout_marginTop="3dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/_30_000_000"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <ImageView
+            android:id="@+id/item6"
+            android:layout_width="match_parent"
+            android:src="@drawable/atp__activity_player_image_money_milestone"
+            android:layout_height="45dp"
+            android:padding="3dp"
+            android:contentDescription="@string/todo"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/item6"
+            android:layout_marginTop="3dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/_22_000_000"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <ImageView
+            android:id="@+id/item7"
+            android:layout_width="match_parent"
+            android:src="@drawable/atp__activity_player_image_money_milestone"
+            android:layout_height="45dp"
+            android:padding="3dp"
+            android:contentDescription="@string/todo"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/item7"
+            android:layout_marginTop="3dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/_14_000_000"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <ImageView
+            android:id="@+id/item8"
+            android:layout_width="match_parent"
+            android:src="@drawable/atp__activity_player_image_money_milestone"
+            android:layout_height="45dp"
+            android:padding="3dp"
+            android:contentDescription="@string/todo"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/item8"
+            android:layout_marginTop="3dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/_10_000_000"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <ImageView
+            android:id="@+id/item9"
+            android:layout_width="match_parent"
+            android:src="@drawable/atp__activity_player_image_money_milestone"
+            android:layout_height="45dp"
+            android:padding="3dp"
+            android:contentDescription="@string/todo"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/item9"
+            android:layout_marginTop="3dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/_6_000_000"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <ImageView
+            android:id="@+id/item10"
+            android:layout_width="match_parent"
+            android:src="@drawable/atp__activity_player_image_money_milestone"
+            android:layout_height="45dp"
+            android:padding="3dp"
+            android:contentDescription="@string/todo"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/item10"
+            android:layout_marginTop="3dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/_3_000_000"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <ImageView
+            android:id="@+id/item11"
+            android:layout_width="match_parent"
+            android:src="@drawable/atp__activity_player_image_money_milestone"
+            android:layout_height="45dp"
+            android:padding="3dp"
+            android:contentDescription="@string/todo"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/item11"
+            android:layout_marginTop="3dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/_2_000_000"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+    <RelativeLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <ImageView
+            android:id="@+id/item12"
+            android:layout_width="match_parent"
+            android:src="@drawable/atp__activity_player_image_money_milestone"
+            android:layout_height="45dp"
+            android:padding="3dp"
+            android:contentDescription="@string/todo"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/item12"
+            android:layout_marginTop="3dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/_1_000_000"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <ImageView
+            android:id="@+id/item13"
+            android:layout_width="match_parent"
+            android:src="@drawable/atp__activity_player_image_money_milestone"
+            android:layout_height="45dp"
+            android:padding="3dp"
+            android:contentDescription="@string/todo"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/item13"
+            android:layout_marginTop="3dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/_600_000"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <ImageView
+            android:id="@+id/item14"
+            android:layout_width="match_parent"
+            android:src="@drawable/atp__activity_player_image_money_milestone"
+            android:layout_height="45dp"
+            android:padding="3dp"
+            android:contentDescription="@string/todo"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/item14"
+            android:layout_marginTop="3dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/_400_000"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <ImageView
+            android:id="@+id/item15"
+            android:layout_width="match_parent"
+            android:src="@drawable/atp__activity_player_image_money_milestone"
+            android:layout_height="45dp"
+            android:padding="3dp"
+            android:contentDescription="@string/todo"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/item15"
+            android:layout_marginTop="3dp"
+            android:layout_centerHorizontal="true"
+            android:text="@string/_200_000"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+    </RelativeLayout>
+
+</LinearLayout>

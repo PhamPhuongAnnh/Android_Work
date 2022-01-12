@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_answer"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Answer"
+    android:background="@drawable/atp__activity_player_background">
+    <LinearLayout android:layout_width="match_parent"
+        android:gravity="center"
+        android:id="@+id/help"
+        android:layout_marginTop="@android:dimen/app_icon_size"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/atp__activity_player_button_image_help_5050"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/atp__activity_player_button_image_help_5050"
+            android:contentDescription="@string/todo" />
+
+        <ImageView
+            android:id="@+id/atp__activity_player_button_image_help_audience"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/atp__activity_player_button_image_help_audience"
+            android:contentDescription="@string/todo"
+            />
+        <ImageView
+            android:id="@+id/atp__activity_player_button_image_help_call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/atp__activity_player_button_image_help_call"
+            android:contentDescription="@string/todo"
+            />
+        <ImageView
+            android:id="@+id/atp__activity_player_button_image_help_change_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/atp__activity_player_button_image_help_change_question"
+            android:contentDescription="@string/todo"
+            />
+        <ImageView
+            android:id="@+id/atp__activity_player_button_image_help_stop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/atp__activity_player_button_image_help_stop"
+            android:contentDescription="@string/todo"
+            />
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/help"
+        android:layout_marginTop="@android:dimen/app_icon_size"
+        tools:ignore="ExtraText">
+
+        <ImageView
+            android:id="@+id/atp__dialog_confirm_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/atp__dialog_confirm_background"
+            android:contentDescription="@string/todo"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:text="@string/question"
+            android:textSize="25sp"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/question"
+        android:contentDescription="@string/todo"
+        android:id="@+id/answer">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/answerA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/atp__activity_player_layout_play_answer_background_normal"/>
+
+            <ImageView
+                android:id="@+id/answerA_choose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/atp__activity_player_layout_play_answer_background_selected"
+                android:visibility="invisible"/>
+
+            <TextView
+                android:id="@+id/txt_answerA"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="@string/A"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/answerB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/atp__activity_player_layout_play_answer_background_normal"/>
+            <ImageView
+                android:id="@+id/answerB_choose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/atp__activity_player_layout_play_answer_background_selected"
+                android:visibility="invisible"/>
+            <TextView
+                android:id="@+id/txt_answerB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/B"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/answerC"
+                android:layout_width="match_parent"
+                android:contentDescription="@string/todo"
+                android:layout_height="wrap_content"
+                android:src="@drawable/atp__activity_player_layout_play_answer_background_normal"/>
+            <ImageView
+                android:id="@+id/answerC_choose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/atp__activity_player_layout_play_answer_background_selected"
+                android:visibility="invisible"/>
+            <TextView
+                android:id="@+id/txt_answerC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:text="@string/c_l_th_xu_n"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/answerD"
+                android:layout_width="match_parent"
+                android:contentDescription="@string/todo"
+                android:layout_height="wrap_content"
+                android:src="@drawable/atp__activity_player_layout_play_answer_background_normal"/>
+            <ImageView
+                android:id="@+id/answerD_choose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/atp__activity_player_layout_play_answer_background_selected"
+                android:visibility="invisible"/>
+            <TextView
+
+                android:id="@+id/txt_answerD"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/d_l_th_mai"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>
